@@ -7,7 +7,6 @@ should become 5 and -12 should become -21.
 def reverse_integer_number():
     while True:
         try:
-           #Take user input
             number = int(input("Enter an integer ,(or type 0 to quit): "))
             if number == 0:
                 print("Exiting program...")

@@ -16,12 +16,8 @@ def frequent_char(string):
                 break
 
             character_count= {}
-
-            # Count occurrences of each character
             for char in string:
                 character_count[char] = character_count.get(char, 0) + 1
-
-            # Find the character with the maximum count
             max_character= max(character_count, key=character_count.get)
 
             if character_count[max_character] == 1:
@@ -32,5 +28,4 @@ def frequent_char(string):
         except ValueError:
             print("Enter a valid string.")
 
-# Start the execution
 frequent_char("")
