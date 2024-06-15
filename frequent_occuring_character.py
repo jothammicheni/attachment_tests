@@ -12,7 +12,7 @@ def frequent_char(string):
         try:
             string= input("Enter a string or enter 0 to exit: ")
             if string == "0":
-                print("Execution terminated by user.")
+                print("Exiting program...")
                 break
 
             character_count= {}
