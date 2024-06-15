@@ -10,6 +10,7 @@ def reverse_integer_number():
            #Take user input
             number = int(input("Enter an integer ,(or type 0 to quit): "))
             if number == 0:
+                print("Exiting program...")
                 break
 
             # Handle numbers with negative values
