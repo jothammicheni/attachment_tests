@@ -3,7 +3,7 @@
 QUESTION THREE
 
 Design a function that takes a string or sequence of characters as input and
-returns the character that appears most frequently.
+returns the character that appears most frequently.;
 //Eg 11189 => '1'
 //hello => l
 """

@@ -11,7 +11,7 @@ def check_consecutive_threes(list):
         if list[i] == 3 and list[i+1] == 3:
             print("Consecutive threes found")
             return
-    print("No consecutive threes found")
+    print("No consecutive threes found.")
 
 while True:
     user_input = input("Enter a list of numbers SEPARATED BY SPACES (or 0 to exit): ")
